@@ -1,4 +1,8 @@
 # front-end-project - Pokedex
+## Proyecto desplegado
+
+>[Pokedex App](https://pokedex-app-689e7.web.app/) 
+
 
 ## Progreso en tareas
 > ### Tareas React
@@ -31,6 +35,8 @@
 | Firebase | ✅ Integrar con registro | [iara baya](https://github.com/iarabaya), [mia ramos](https://github.com/MiaFate) |
 | Firebase | Integrar reinicio de contraseña |  |
 | Firebase | ✅ Integrar con login Google | [iara baya](https://github.com/iarabaya), [mia ramos](https://github.com/MiaFate) |
+| Firebase | ✅ Hosting Firebase | [mia ramos](https://github.com/MiaFate) |
+| Firebase | ✅ Configuracion GitHub Actions | [mia ramos](https://github.com/MiaFate) |
 | Firestore | Crear documento |  |
 | Firestore | Conectar con base de datos |  |
 
