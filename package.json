@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "firebase-login": "firebase login",
-    "firebase-init": "firebase init hosting",
+    "firebase-init": "firebase init",
     "firebase-deploy": "firebase deploy"
   },
   "eslintConfig": {
