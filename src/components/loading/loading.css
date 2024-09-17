@@ -1,0 +1,77 @@
+HTML CSSResult Skip Results Iframe
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */button,hr{overflow:visible}img,legend{border:0}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}pre,textarea{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{font:inherit;margin:0}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}button:-moz-focusring,input:-moz-focusring{outline:ButtonText dotted 1px}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{padding:0}optgroup{font-weight:700}
+/* body{
+  background: #3e3e3e;
+  overflow: hidden;
+} */
+
+div.ball{
+  width:150px;
+  height: 150px;
+  border-radius: 50%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ee1515+41,222224+41,222224+59,f0f0f0+59,f0f0f0+59,f0f0f0+96,f0f0f0+100 */
+  background: #ee1515; /* Old browsers */
+  background: -moz-linear-gradient(top, #ee1515 41%, #222224 41%, #222224 59%, #f0f0f0 59%, #f0f0f0 59%, #f0f0f0 96%, #f0f0f0 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ee1515 41%,#222224 41%,#222224 59%,#f0f0f0 59%,#f0f0f0 59%,#f0f0f0 96%,#f0f0f0 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ee1515 41%,#222224 41%,#222224 59%,#f0f0f0 59%,#f0f0f0 59%,#f0f0f0 96%,#f0f0f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee1515', endColorstr='#f0f0f0',GradientType=0 ); /* IE6-9  */
+  position: absolute;
+  top: 50%;
+  margin-top: -75px;
+  left: 50%;
+  margin-left: -75px;
+  -webkit-animation: animation-ball 2s infinite ; /* Chrome, Safari, Opera */
+    /* animation: animation-ball 2s infinite ; */
+    animation: animation-ball .8s  linear 0s infinite;
+    animation-timing-function : ease-in;
+}
+div.ball:before{
+  content:'';
+  height: 46px;
+  width: 46px;
+  background: #222224;
+  position: absolute;
+  border-radius: 50%;
+  top:50%;
+  left:50%;
+  margin-top: -23px;
+  margin-left: -23px;
+}
+
+div.ball:after{
+  content:'';
+  background: #f0f0f0;
+  height: 31px;
+  width: 31px;
+  border-radius: 50%;
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+
+
+@keyframes animation-ball {
+    0%   {
+      transform:rotate(0deg);
+      
+  }
+/*   25%{
+    transform:rotate(-75deg);
+    
+  }
+
+  75%{
+    transform:rotate(75deg);
+   
+  } */
+  
+
+    100% {
+      transform:rotate(360deg);
+      
+
+    }
+}
